@@ -27,11 +27,11 @@ function playerWins(choiceShort, computerChoice) {
 
 function displayWinner(choiceShort, computerChoice) {
   if (playerWins(choiceShort, computerChoice)) {
-    prompt("You win!");
+    prompt("You win this round!");
   } else if (choiceShort === computerChoice) {
-    prompt("It's a tie.");
+    prompt("It's a tie for this round.");
   } else {
-    prompt("Computer wins...");
+    prompt("Computer wins this round...");
   }
 }
 
